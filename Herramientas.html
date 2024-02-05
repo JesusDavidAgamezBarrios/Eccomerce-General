@@ -2,10 +2,12 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
+    <!-- icons boostrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 
 <body>
@@ -13,10 +15,10 @@
         <div id="container">
             <div class="logo">
                 <nav>
-                    <label for="menu-btn" class="menu-icon">
-                        <span class="navicon"></span>
-                    </label>
-                    <ul class="menu">
+                    <div class="menu-res">
+                        <button id="menu"><i class="bi bi-justify"></i></button>
+                    </div>
+                    <ul class="menu ">
                         <li><a href="Electrodomesticos.html">Electrodomesticos</a></li>
                         <li><a href="vehiculos.html">Vehiculos</a></li>
                         <li><a href="Hogar y Muebles.html">Hogar</a></li>
@@ -28,145 +30,154 @@
                         <li><a href="BellezayCuidadoPersonal.html">Belleza y Cuidado Personal</a></li>
                         <li><a href="Juegosyjuguetes.html">Juegos y Juguetes</a></li>
                     </ul>
+                    <ul class="menu1 cerrar">
+                    </ul>
                 </nav>
                 <div class="cart-icon">
+                    <span class="cart-count">0</span>
                     <img src="https://img.icons8.com/material-outlined/24/000000/shopping-cart.png"
                         alt="Shopping Cart" />
-                    <span class="cart-count">0</span>
                 </div>
             </div>
         </div>
     </header>
-    <div class="card-container">
-        <div id="product-list" class="product-list">
-            <div class="product">
-                <div class="images-cont">
-                    <img src="images/Herramientas/Herramientas1-1.png" alt="Producto 1" />
-                    <img src="images/Herramientas/Herramientas1-2.png" alt="Producto 1" />
-                    <img src="images/Herramientas/Herramientas1-3.png" alt="Producto 1" />
-                    <img src="images/Herramientas/Herramientas1-5.png" alt="Producto 1" />
-                </div>
-                <div class="image-print">
-                    <img src="images/Herramientas/Herramientas-home.png" alt="Producto 1" />
-                </div>
-                <div class="product-details">
-                    <div class="product-name">
-                        Taladro Atornillador Inalámbrico 10mm Maxtools 12v 23nm 27
-                        Accesorio
+
+    <div class="padre-card">
+        <div class="card-container">
+            <div id="product-list" class="product-list">
+                <div class="product ">
+                    <div class="prod-imgs">
+                        <div class="images-cont">
+                            <img src="images/electrodomesticos/Vista 1.png" alt="Producto 1">
+                            <img src="images/electrodomesticos/Vista1-1.png" alt="Producto 1">
+                            <img src="images/electrodomesticos/Vista1-2.png" alt="Producto 1">
+                            <img src="images/electrodomesticos/vista1-3.png" alt="Producto 1">
+                        </div>
+                        <div class="image-print">
+                            <img src="images/electrodomesticos/producto1-home.png" alt="Producto 1">
+                        </div>
                     </div>
-                    <div class="product-description">
-                        Lo que tienes que saber de este producto Con el taladro eléctrico
-                        Maxtools podrás realizar múltiples tareas en diversas superficies
-                        de un modo práctico y sencillo. Versatilidad y eficiencia Su
-                        función destornillador te posibilitará explotar al máximo tu
-                        producto. Podrás realizar aplicaciones de diferentes magnitudes
-                        con gran exactitud y calidad. Ligero y fácil de manejar Al no
-                        haber cables de por medio, te sentirás más cómodo al manipularlo.
-                        Además, causa menos fatiga tras un uso intensivo. No se
-                        presentarán problemas como no encontrar un contacto o que el cable
-                        sea muy corto para el área donde lo utilizarás. TALADRO
-                        INALÁMBRICO 3/8 12V INCLUYE 2 BATERÍAS CON ESTUCHE PLÁSTICO + 27
-                        PIEZAS
-                    </div>
-                    <div class="product-price">$ 174.000</div>
-                    <button class="buy-button">Comprar</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="card-container">
-        <div id="product-list" class="product-list">
-            <div class="product">
-                <div class="images-cont">
-                    <img src="images/Herramientas/JuegodeHerrar-1-1.png" alt="Producto 2" />
-                    <img src="images/Herramientas/juegodeHerrar1-2.png" alt="Producto 2" />
-                    <img src="images/Herramientas/JuegodeHerrar1-3.png" alt="Producto 2" />
-                    <img src="images/Herramientas/JuegodeHerrar1-5.png" alt="Producto 2" />
-                </div>
-                <div class="image-print">
-                    <img src="images/Herramientas/Juegode Herrar.home.png" alt="Producto 2" />
-                </div>
-                <div class="product-details">
-                    <div class="product-name">
-                        Juego De Herramientas Manuales X82 Piezas Kit Multi Usos
-                    </div>
-                    <div class="product-description">
-                        JUEGO DE HERRAMIENTAS MANUALES X82 PIEZAS RATCHET DESTORNILLADORES
-                        ALICATES LLAVES MARTILLO SEGUETA METRO PROBADOR Marca: POWER
-                        Referencia: HDT82 Fabricado en Chrome Vanadium – Acero inox –
-                        Acero al carbon 1 Mango tipo Ratchet 1 Cinta métrica 3 metros 1
-                        Destornillador de pala 1 Destornillador de estrella 1 Bisturí 1
-                        Segueta 6” 4 Destornilladores delgados (2 estrella, 2 pala) 1
-                        Probador de corriente digital 9 Copas de 5, 6, 7, 8, 9, 10, 11,
-                        12, 13mm - Cuadrante de ¼” 8 Llaves Allen de 1.5, 2, 2.5, 3, 4, 5,
-                        5.5, 6mm 1 Llave inglesa de 8” x 200mm 10 puntas – 3 de
-                        pala(4,5,6) – 2 Estrella(PZ1,PZ2) – 2 Cruz(PH1,PH2) – 2
-                        Torx(T15,T20) – Conector universal 1 Cinta aislante eléctrica 1
-                        Martillo 1 Alicate 1 Pinza 30 Tornillos de expansión de tres
-                        tamaños diferentes Estuche de polipropileno Herramienta muy
-                        práctica y de excelente calidad, indispensable en el hogar, taller
-                        de garaje, mecánica, bricolaje, carpintería, industria, etc.
-                        <div class="product-price">$ 174.000</div>
+                    <div class="product-details">
+                        <div class="product-name">Freidora de aire Oster CKSTAF40M de 4L color gris oscuro 120V</div>
+                        <div class="product-description">Lo que tienes que saber de este producto
+                            Control perilla.
+                            Contiene 1 canasto removible.
+                            Mango resistente a altas temperaturas.
+                            Con timer programable.
+                            Superficie antiadherente.
+                            Función incluida: freír.
+                            Dimensiones: 26cm de ancho, 31.3cm de alto y 33.7cm de largo.
+                            Su peso es de 3.5kg.
+                            Ideal para la preparación de tus comidas.
+                        </div>
+                        <div class="product-price">$238.500</div>
                         <button class="buy-button">Comprar</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="card-container">
-        <div id="product-list" class="product-list">
-            <div class="product">
-                <div class="images-cont">
-                    <img src="images/Herramientas/Motor1-1.png" alt="Producto 3" />
-                    <img src="images/Herramientas/Motor1-2.png" alt="Producto 3" />
-                    <img src="images/Herramientas/Motor1-3.png" alt="Producto 3" />
-                    <img src="images/Herramientas/Motor1-4.png" alt="Producto 3" />
-                </div>
-                <div class="image-print">
-                    <img src="images/Herramientas/Motorhome.png" alt="Producto 3" />
-                </div>
-                <div class="product-details">
-                    <div class="product-name">
-                        Motor A Gasolina 6.5 Hp 2.9 L Pretul 28114
+    <div class="padre-card">
+        <div class="card-container">
+            <div id="product-list" class="product-list">
+                <div class="product ">
+                    <div class="prod-imgs">
+                        <div class="images-cont">
+                            <img src="images/electrodomesticos/Vista 1.png" alt="Producto 1">
+                            <img src="images/electrodomesticos/Vista1-1.png" alt="Producto 1">
+                            <img src="images/electrodomesticos/Vista1-2.png" alt="Producto 1">
+                            <img src="images/electrodomesticos/vista1-3.png" alt="Producto 1">
+                        </div>
+                        <div class="image-print">
+                            <img src="images/electrodomesticos/producto1-home.png" alt="Producto 1">
+                        </div>
                     </div>
-                    <div class="product-description">
-                        Tipo de arranque: manual. Dimensiones: 37cm de ancho x 37cm de
-                        largo x 33cm de alto. Peso: 13kg. Velocidad máxima de rotación:
-                        3600rpm. Tipo de combustible: Gasolin
-                        <div class="product-price">$ 669.900</div>
+
+                    <div class="product-details">
+                        <div class="product-name">Freidora de aire Oster CKSTAF40M de 4L color gris oscuro 120V</div>
+                        <div class="product-description">Lo que tienes que saber de este producto
+                            Control perilla.
+                            Contiene 1 canasto removible.
+                            Mango resistente a altas temperaturas.
+                            Con timer programable.
+                            Superficie antiadherente.
+                            Función incluida: freír.
+                            Dimensiones: 26cm de ancho, 31.3cm de alto y 33.7cm de largo.
+                            Su peso es de 3.5kg.
+                            Ideal para la preparación de tus comidas.
+                        </div>
+                        <div class="product-price">$238.500</div>
                         <button class="buy-button">Comprar</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="card-container">
-        <div id="product-list" class="product-list">
-            <div class="product">
-                <div class="images-cont">
-                    <img src="images/Herramientas/Jardin1-1.png" alt="Producto 4" />
-                    <img src="images/Herramientas/Jardin1-2.png" alt="Producto 4" />
-                    <img src="images/Herramientas/Jardin1-3.png" alt="Producto 4" />
-                    <img src="images/Herramientas/Jardin1-4.png" alt="Producto 4" />
-                </div>
-                <div class="image-print">
-                    <img src="images/Herramientas/Jardin-Home.png" alt="Producto 4" />
-                </div>
-                <div class="product-details">
-                    <div class="product-name">
-                        Juego Herramientas Para Jardín 4 Piezas, 6 Truper 15030
+    <div class="padre-card">
+        <div class="card-container">
+            <div id="product-list" class="product-list">
+                <div class="product ">
+                    <div class="prod-imgs">
+                        <div class="images-cont">
+                            <img src="images/electrodomesticos/Vista 1.png" alt="Producto 1">
+                            <img src="images/electrodomesticos/Vista1-1.png" alt="Producto 1">
+                            <img src="images/electrodomesticos/Vista1-2.png" alt="Producto 1">
+                            <img src="images/electrodomesticos/vista1-3.png" alt="Producto 1">
+                        </div>
+                        <div class="image-print">
+                            <img src="images/electrodomesticos/producto1-home.png" alt="Producto 1">
+                        </div>
                     </div>
-                    <div class="product-description">
-                        El juego de herramientas para jardín de 4 piezas de la reconocida marca Truper es la opción
-                        perfecta para aquellos amantes de la jardinería que buscan calidad y durabilidad en sus
-                        herramientas. Con un largo de mango de 15 cm y fabricado en madera, este juego ofrece comodidad
-                        y facilidad de uso en cada tarea de jardinería. Su altura de 15 cm y su modelo 15030 garantizan
-                        un rendimiento óptimo en cualquier tipo de jardín. Con un largo total y ancho de 15 cm, estas
-                        herramientas son ideales para trabajar en espacios reducidos. Además, su condición de ítem nuevo
-                        asegura que recibirás un producto en perfectas condiciones. No pierdas la oportunidad de
-                        adquirir este juego de herramientas para jardín de 4 piezas de Truper y disfruta de una
-                        experiencia única en el cuidado de tu jardín.
-                        <div class="product-price">$ 30.900 </div>
+
+                    <div class="product-details">
+                        <div class="product-name">Freidora de aire Oster CKSTAF40M de 4L color gris oscuro 120V</div>
+                        <div class="product-description">Lo que tienes que saber de este producto
+                            Control perilla.
+                            Contiene 1 canasto removible.
+                            Mango resistente a altas temperaturas.
+                            Con timer programable.
+                            Superficie antiadherente.
+                            Función incluida: freír.
+                            Dimensiones: 26cm de ancho, 31.3cm de alto y 33.7cm de largo.
+                            Su peso es de 3.5kg.
+                            Ideal para la preparación de tus comidas.
+                        </div>
+                        <div class="product-price">$238.500</div>
+                        <button class="buy-button">Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="padre-card">
+        <div class="card-container">
+            <div id="product-list" class="product-list">
+                <div class="product ">
+                    <div class="prod-imgs">
+                        <div class="images-cont">
+                            <img src="images/electrodomesticos/Vista 1.png" alt="Producto 1">
+                            <img src="images/electrodomesticos/Vista1-1.png" alt="Producto 1">
+                            <img src="images/electrodomesticos/Vista1-2.png" alt="Producto 1">
+                            <img src="images/electrodomesticos/vista1-3.png" alt="Producto 1">
+                        </div>
+                        <div class="image-print">
+                            <img src="images/electrodomesticos/producto1-home.png" alt="Producto 1">
+                        </div>
+                    </div>
+                    <div class="product-details">
+                        <div class="product-name">Freidora de aire Oster CKSTAF40M de 4L color gris oscuro 120V</div>
+                        <div class="product-description">Lo que tienes que saber de este producto
+                            Control perilla.
+                            Contiene 1 canasto removible.
+                            Mango resistente a altas temperaturas.
+                            Con timer programable.
+                            Superficie antiadherente.
+                            Función incluida: freír.
+                            Dimensiones: 26cm de ancho, 31.3cm de alto y 33.7cm de largo.
+                            Su peso es de 3.5kg.
+                            Ideal para la preparación de tus comidas.
+                        </div>
+                        <div class="product-price">$238.500</div>
                         <button class="buy-button">Comprar</button>
                     </div>
                 </div>
@@ -174,5 +185,6 @@
         </div>
     </div>
 </body>
+<script src="/main.js"></script>
 
 </html>

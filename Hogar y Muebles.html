@@ -2,10 +2,12 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
+    <!-- icons boostrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 
 <body>
@@ -13,10 +15,10 @@
         <div id="container">
             <div class="logo">
                 <nav>
-                    <label for="menu-btn" class="menu-icon">
-                        <span class="navicon"></span>
-                    </label>
-                    <ul class="menu">
+                    <div class="menu-res">
+                        <button id="menu"><i class="bi bi-justify"></i></button>
+                    </div>
+                    <ul class="menu ">
                         <li><a href="Electrodomesticos.html">Electrodomesticos</a></li>
                         <li><a href="vehiculos.html">Vehiculos</a></li>
                         <li><a href="Hogar y Muebles.html">Hogar</a></li>
@@ -28,155 +30,161 @@
                         <li><a href="BellezayCuidadoPersonal.html">Belleza y Cuidado Personal</a></li>
                         <li><a href="Juegosyjuguetes.html">Juegos y Juguetes</a></li>
                     </ul>
+                    <ul class="menu1 cerrar">
+                    </ul>
                 </nav>
                 <div class="cart-icon">
+                    <span class="cart-count">0</span>
                     <img src="https://img.icons8.com/material-outlined/24/000000/shopping-cart.png"
                         alt="Shopping Cart" />
-                    <span class="cart-count">0</span>
                 </div>
             </div>
         </div>
     </header>
 
-    <div class="card-container">
-        <div id="product-list" class="product-list">
-            <div class="product">
-                <div class="images-cont">
-                    <img src="images/Hogar/sofa1-1.png" alt="Producto 1" />
-                    <img src="images/Hogar/sofa1-2.png" alt="Producto 1" />
-                    <img src="images/Hogar/sofa1-3.png" alt="Producto 1" />
-                    <img src="images/Hogar/sofa1-4.png" alt="Producto 1" />
-                </div>
-                <div class="image-print">
-                    <img src="images/Hogar/sofahome.png" alt="Producto 1" />
-                </div>
-                <div class="product-details">
-                    <div class="product-name">
-                        Silla Cama, Tres En Uno. Variedad De Tonos Y Telas
+    <div class="padre-card">
+        <div class="card-container">
+            <div id="product-list" class="product-list">
+                <div class="product ">
+                    <div class="prod-imgs">
+                        <div class="images-cont">
+                            <img src="images/electrodomesticos/Vista 1.png" alt="Producto 1">
+                            <img src="images/electrodomesticos/Vista1-1.png" alt="Producto 1">
+                            <img src="images/electrodomesticos/Vista1-2.png" alt="Producto 1">
+                            <img src="images/electrodomesticos/vista1-3.png" alt="Producto 1">
+                        </div>
+                        <div class="image-print">
+                            <img src="images/electrodomesticos/producto1-home.png" alt="Producto 1">
+                        </div>
                     </div>
-                    <div class="product-description">
-                        Silla de sofá cama 3 en 1 silla convertible para dormir, trae la
-                        función de recline en el espaldar, tiene un modulo carrito en la
-                        parte de abajo el cual al extenderse queda a la misma altura del
-                        asiento, cama individual, silla moderna para adultos. Puedes
-                        personalizar el color y la tela Estructura: Madera pino Espuma
-                        rosada o naranja densidad de 26 Herrajes alemanes Trae: un cojín
-                        almohadón
+                    <div class="product-details">
+                        <div class="product-name">Freidora de aire Oster CKSTAF40M de 4L color gris oscuro 120V</div>
+                        <div class="product-description">Lo que tienes que saber de este producto
+                            Control perilla.
+                            Contiene 1 canasto removible.
+                            Mango resistente a altas temperaturas.
+                            Con timer programable.
+                            Superficie antiadherente.
+                            Función incluida: freír.
+                            Dimensiones: 26cm de ancho, 31.3cm de alto y 33.7cm de largo.
+                            Su peso es de 3.5kg.
+                            Ideal para la preparación de tus comidas.
+                        </div>
+                        <div class="product-price">$238.500</div>
+                        <button class="buy-button">Comprar</button>
                     </div>
-                    <div class="product-price">$850.000</div>
-                    <button class="buy-button">Comprar</button>
                 </div>
             </div>
         </div>
     </div>
+    <div class="padre-card">
+        <div class="card-container">
+            <div id="product-list" class="product-list">
+                <div class="product ">
+                    <div class="prod-imgs">
+                        <div class="images-cont">
+                            <img src="images/electrodomesticos/Vista 1.png" alt="Producto 1">
+                            <img src="images/electrodomesticos/Vista1-1.png" alt="Producto 1">
+                            <img src="images/electrodomesticos/Vista1-2.png" alt="Producto 1">
+                            <img src="images/electrodomesticos/vista1-3.png" alt="Producto 1">
+                        </div>
+                        <div class="image-print">
+                            <img src="images/electrodomesticos/producto1-home.png" alt="Producto 1">
+                        </div>
+                    </div>
 
-    <div class="card-container">
-        <div id="product-list" class="product-list">
-            <div class="product">
-                <div class="images-cont">
-                    <img src="images/Hogar/Sillareclinable1-1.png" alt="Producto 2" />
-                    <img src="images/Hogar/Sillareclinable1-2.png" alt="Producto 2" />
-                    <img src="images/Hogar/Sillareclinable1-3.png" alt="Producto 2" />
-                    <img src="images/Hogar/Sillareclinable1-4.png" alt="Producto 2" />
-                </div>
-                <div class="image-print">
-                    <img src="images/Hogar/Sillareclinable-home.png" alt="Producto 2" />
-                </div>
-                <div class="product-details">
-                    <div class="product-name">
-                        Sala Reclinable Kioto, Sofá Con Tres Puesto Y Dos Poltronas
+                    <div class="product-details">
+                        <div class="product-name">Freidora de aire Oster CKSTAF40M de 4L color gris oscuro 120V</div>
+                        <div class="product-description">Lo que tienes que saber de este producto
+                            Control perilla.
+                            Contiene 1 canasto removible.
+                            Mango resistente a altas temperaturas.
+                            Con timer programable.
+                            Superficie antiadherente.
+                            Función incluida: freír.
+                            Dimensiones: 26cm de ancho, 31.3cm de alto y 33.7cm de largo.
+                            Su peso es de 3.5kg.
+                            Ideal para la preparación de tus comidas.
+                        </div>
+                        <div class="product-price">$238.500</div>
+                        <button class="buy-button">Comprar</button>
                     </div>
-                    <div class="product-description">
-                        Hermoso Juego de Sala reclinable para tu hogar, totalmente
-                        confort. En el color y tela que el cliente la desee Trae: 3
-                        módulos un sofá el cuál es de tres puestos y dos poltronas
-                        individuales, estos tienen las tres funciones en el espaldar de
-                        sentado, semi acostado y acostado. Cuando se reclina el sofá de
-                        tres puestos queda como una sola cama y las poltronas se reclinan
-                        y se unen verticalmente y quedan como una cama aparte. (Son 2
-                        camas en una sola sala) se puede personalizar a gusto del cliente
-                        Trae tres decorativos (cojines) Mesa de centro (la mesa de centro
-                        es un obsequio y hay diseños surtidos) no se puede personalizar
-                    </div>
-                    <div class="product-price">$1.750.000</div>
-                    <button class="buy-button">Comprar</button>
                 </div>
             </div>
         </div>
     </div>
-    <div class="card-container">
-        <div id="product-list" class="product-list">
-            <div class="product">
-                <div class="images-cont">
-                    <img src="images/Hogar/Basecama1-1.png" alt="Producto 3" />
-                    <img src="images/Hogar/Basecama1-2.png" alt="Producto 3" />
-                    <img src="images/Hogar/Basecama1-3.png" alt="Producto 3" />
-                    <img src="images/Hogar/Basecama1-4.png" alt="Producto 3" />
-                </div>
-                <div class="image-print">
-                    <img src="images/Hogar/Basecama-home.png" alt="Producto 3" />
-                </div>
-                <div class="product-details">
-                    <div class="product-name">
-                        Colchon Semiortopedico + Base Cama + 2 Almohadas 120x190
+    <div class="padre-card">
+        <div class="card-container">
+            <div id="product-list" class="product-list">
+                <div class="product ">
+                    <div class="prod-imgs">
+                        <div class="images-cont">
+                            <img src="images/electrodomesticos/Vista 1.png" alt="Producto 1">
+                            <img src="images/electrodomesticos/Vista1-1.png" alt="Producto 1">
+                            <img src="images/electrodomesticos/Vista1-2.png" alt="Producto 1">
+                            <img src="images/electrodomesticos/vista1-3.png" alt="Producto 1">
+                        </div>
+                        <div class="image-print">
+                            <img src="images/electrodomesticos/producto1-home.png" alt="Producto 1">
+                        </div>
                     </div>
-                    <div class="product-description">
-                        OLCHÓN SEMIORTOPEDICO: SOPORTA HASTA 100 KILOS - Fabricado con una
-                        lamina de casata por una cara para aumentar su duración y firmeza
-                        y un bloque en espuma naranja en alta densidad - 18 cm de alto -
-                        Forrado en tela satin acolchada con espuma y algodón - Forro con
-                        cremallera - Antialérgico para mayor confort - Cámaras laterales
-                        de ventilación - Manijas de agarre - 1 año de garantía
-                        ============================================
-                        <br />
-                        BASE CAMA - Dividida en dos secciones para facilitar su traslado y
-                        optimizar su seguridad - También se fabrica entera según el gusto
-                        del cliente - Fabricada en madera - Laterales tapizados en cuerina
-                        o Jacquard del color que escoja - Tela acolchada con espuma y
-                        algodón en la parte superior - 8 patas antideslizantes para
-                        brindarle un mayor soporte - 32 cm de alto - 5 años de garantía
-                        =======================================================
+
+                    <div class="product-details">
+                        <div class="product-name">Freidora de aire Oster CKSTAF40M de 4L color gris oscuro 120V</div>
+                        <div class="product-description">Lo que tienes que saber de este producto
+                            Control perilla.
+                            Contiene 1 canasto removible.
+                            Mango resistente a altas temperaturas.
+                            Con timer programable.
+                            Superficie antiadherente.
+                            Función incluida: freír.
+                            Dimensiones: 26cm de ancho, 31.3cm de alto y 33.7cm de largo.
+                            Su peso es de 3.5kg.
+                            Ideal para la preparación de tus comidas.
+                        </div>
+                        <div class="product-price">$238.500</div>
+                        <button class="buy-button">Comprar</button>
                     </div>
-                    <div class="product-price">
-                        $430.000</div>
-                    <button class="buy-button">Comprar</button>
                 </div>
             </div>
         </div>
     </div>
-    </div>
-    <div class="card-container">
-        <div id="product-list" class="product-list">
-            <div class="product">
-                <div class="images-cont">
-                    <img src="images/Hogar/Armario1-1.png" alt="Producto 4" />
-                    <img src="images/Hogar/Armario1-2.png" alt="Producto 4" />
-                    <img src="images/Hogar/Armario1-3.png" alt="Producto 4" />
-                    <img src="images/Hogar/Armario1-4.png" alt="Producto 4" />
-                </div>
-                <div class="image-print">
-                    <img src="images/Hogar/Armariohome.png" alt="Producto 4" />
-                </div>
-                <div class="product-details">
-                    <div class="product-name">
-                        Armario Grande Clasico Rimax 6252 -gris
+    <div class="padre-card">
+        <div class="card-container">
+            <div id="product-list" class="product-list">
+                <div class="product ">
+                    <div class="prod-imgs">
+                        <div class="images-cont">
+                            <img src="images/electrodomesticos/Vista 1.png" alt="Producto 1">
+                            <img src="images/electrodomesticos/Vista1-1.png" alt="Producto 1">
+                            <img src="images/electrodomesticos/Vista1-2.png" alt="Producto 1">
+                            <img src="images/electrodomesticos/vista1-3.png" alt="Producto 1">
+                        </div>
+                        <div class="image-print">
+                            <img src="images/electrodomesticos/producto1-home.png" alt="Producto 1">
+                        </div>
                     </div>
-                    <div class="product-description">
-                        Posee 4 estantes.
-                        Dispone de espacio para guardar calzados.
-                        El mueble ideal para mantener tus prendas ordenadas.
-                        Armarios Grande Eco Línea Starplastic, 3 entrepaños que resisten hasta 18 kg cada uno, con
-                        manijas horizontales, optimiza el espacio en casa. Facil de armar, no requiere uso de
-                        herramientas. No se oxida.
+                    <div class="product-details">
+                        <div class="product-name">Freidora de aire Oster CKSTAF40M de 4L color gris oscuro 120V</div>
+                        <div class="product-description">Lo que tienes que saber de este producto
+                            Control perilla.
+                            Contiene 1 canasto removible.
+                            Mango resistente a altas temperaturas.
+                            Con timer programable.
+                            Superficie antiadherente.
+                            Función incluida: freír.
+                            Dimensiones: 26cm de ancho, 31.3cm de alto y 33.7cm de largo.
+                            Su peso es de 3.5kg.
+                            Ideal para la preparación de tus comidas.
+                        </div>
+                        <div class="product-price">$238.500</div>
+                        <button class="buy-button">Comprar</button>
                     </div>
-                    <div class="product-price">
-                        $430.000</div>
-                    <button class="buy-button">Comprar</button>
                 </div>
             </div>
         </div>
-    </div>
     </div>
 </body>
+<script src="/main.js"></script>
 
 </html>

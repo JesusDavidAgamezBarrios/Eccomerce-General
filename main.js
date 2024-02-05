@@ -1,43 +1,34 @@
-let currentCategory = null;
 
-function loadProducts(category) {
-  currentCategory = category;
-  // Aquí es donde obtendrías los productos de la categoría seleccionada.
-  // En este ejemplo, estoy usando datos de muestra.
-  let products = [
-    { name: 'Producto 1', category: electro },
-    { name: 'Producto 2', category: category },
-    // ...
-  ];
 
-  // Vacía el contenedor de productos
-  let productContainer = document.querySelector('#product-list');
-  productContainer.innerHTML = '';
+const lista = document.querySelector('.menu1')
+const menu = document.querySelector('#menu')
 
-  // Inserta los productos en el contenedor
-  products.forEach(product => {
-    let productDiv = document.createElement('div');
-    productDiv.classList.add('product');
-    productDiv.textContent = product.name;
-    productContainer.appendChild(productDiv);
-  });
-}
+menu.addEventListener('click',()=>{
 
-function loadMoreProducts() {
-  // Aquí es donde obtendrías y cargarías más productos de la categoría actual.
-  // En este ejemplo, estoy usando datos de muestra.
-  let products = [
-    { name: 'Producto 3', category: currentCategory },
-    { name: 'Producto 4', category: currentCategory },
-    // ...
-  ];
+  if (lista.classList.contains('cerrar')) {
+    // Si ya está cerrado, abrir el menú
+    lista.classList.remove('cerrar');
+    lista.innerHTML = `
+    <li><a href="Electrodomesticos.html">Electrodomesticos</a></li>
+    <li><a href="vehiculos.html">Vehiculos</a></li>
+    <li><a href="Hogar y Muebles.html">Hogar</a></li>
+    <li><a href="Accesorios para Vehiculos.html">Accesorios para Vehiculos</a></li>
+    <li><a href="Tecnologia.html">Tecnologia</a></li>
+    <li><a href="Herramientas.html">Herramientas</a></li>
+    <li><a href="Inmuebles.html">Inmuebles</a></li>
+    <li><a href="Construccion.html">Construccion</a></li>
+    <li><a href="BellezayCuidadoPersonal.html">Belleza y Cuidado Personal</a></li>
+    <li><a href="Juegosyjuguetes.html">Juegos y Juguetes</a></li>
+    `;
+  } else {
+    // Si está abierto, cerrar el menú
+    lista.classList.add('cerrar');
+    lista.innerHTML = '';
+  }
+  
 
-  // Inserta los productos en el contenedor
-  let productContainer = document.querySelector('#product-list');
-  products.forEach(product => {
-    let productDiv = document.createElement('div');
-    productDiv.classList.add('product');
-    productDiv.textContent = product.name;
-    productContainer.appendChild(productDiv);
-  });
-}
+})
+
+
+
+

@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
+    <!-- icons boostrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 
 <body>
@@ -13,10 +15,10 @@
         <div id="container">
             <div class="logo">
                 <nav>
-                    <label for="menu-btn" class="menu-icon">
-                        <span class="navicon"></span>
-                    </label>
-                    <ul class="menu">
+                    <div class="menu-res">
+                        <button id="menu"><i class="bi bi-justify"></i></button>
+                    </div>
+                    <ul class="menu ">
                         <li><a href="Electrodomesticos.html">Electrodomesticos</a></li>
                         <li><a href="vehiculos.html">Vehiculos</a></li>
                         <li><a href="Hogar y Muebles.html">Hogar</a></li>
@@ -28,140 +30,125 @@
                         <li><a href="BellezayCuidadoPersonal.html">Belleza y Cuidado Personal</a></li>
                         <li><a href="Juegosyjuguetes.html">Juegos y Juguetes</a></li>
                     </ul>
+                    <ul class="menu1 cerrar">
+                    </ul>
                 </nav>
                 <div class="cart-icon">
+                    <span class="cart-count">0</span>
                     <img src="https://img.icons8.com/material-outlined/24/000000/shopping-cart.png"
                         alt="Shopping Cart" />
-                    <span class="cart-count">0</span>
                 </div>
             </div>
         </div>
     </header>
 
-    <div class="card-container">
-        <div id="product-list" class="product-list">
-            <div class="product">
-                <div class="images-cont">
-                    <img src="images/electrodomesticos/Vista 1.png" alt="Producto 1">
-                    <img src="images/electrodomesticos/Vista1-1.png" alt="Producto 1">
-                    <img src="images/electrodomesticos/Vista1-2.png" alt="Producto 1">
-                    <img src="images/electrodomesticos/vista1-3.png" alt="Producto 1">
-                </div>
-                <div class="image-print">
-                    <img src="images/electrodomesticos/producto1-home.png" alt="Producto 1">
-                </div>
-                <div class="product-details">
-                    <div class="product-name">Freidora de aire Oster CKSTAF40M de 4L color gris oscuro 120V</div>
-                    <div class="product-description">Lo que tienes que saber de este producto
-                        Control perilla.
-                        Contiene 1 canasto removible.
-                        Mango resistente a altas temperaturas.
-                        Con timer programable.
-                        Superficie antiadherente.
-                        Función incluida: freír.
-                        Dimensiones: 26cm de ancho, 31.3cm de alto y 33.7cm de largo.
-                        Su peso es de 3.5kg.
-                        Ideal para la preparación de tus comidas.
+    <div class="padre-card">
+        <div class="card-container">
+            <div id="product-list" class="product-list">
+                <div class="product ">
+                    <div class="prod-imgs">
+                        <div class="images-cont">
+                            <img src="images/electrodomesticos/cafetera1.png" alt="Producto 1">
+                            <img src="images/electrodomesticos/cafetera2.png" alt="Producto 1">
+                            <img src="images/electrodomesticos/cafetera3.png" alt="Producto 1">
+                            <img src="images/electrodomesticos/cafetera4.png" alt="Producto 1">
+                        </div>
+                        <div class="image-print">
+                            <img src="images/electrodomesticos/cafetera.png" alt="Producto 1">
+                        </div>
                     </div>
-                    <div class="product-price">$238.500</div>
-                    <button class="buy-button">Comprar</button>
+                    <div class="product-details">
+                        <div class="product-name">Cafetera Para Espresso Oster® 15 Bares, Molino Integrado Color Gris 110V</div>
+                        <div class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto tenetur sit nobis delectus dignissimos inventore aspernatur voluptas maxime eveniet earum, nihil, quaerat minus reiciendis tempore recusandae modi cum quam. Laboriosam!
+                        </div>
+                        <div class="product-price">$1.939.978</div>
+                        <button class="buy-button">Comprar</button>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="card-container">
-        <div id="product-list" class="product-list">
-            <div class="product">
-                <div class="images-cont">
-                    <img src="images/electrodomesticos/producto1..2-2.png" alt="Producto2">
-                    <img src="images/electrodomesticos/producto1,.2-3.png" alt="Producto2">
-                    <img src="images/electrodomesticos/producto1.2-4.png" alt="Producto2">
-                    <img src="images/electrodomesticos/producto1.2-5.png" alt="Producto2">
-                </div>
-                <div class="image-print">
-                    <img src="images/electrodomesticos/producto1.2-1.png" alt="Producto2">
-                </div>
-                <div class="product-details">
-                    <div class="product-name">Lavadora Automática Challenger Ref. Cw 5711 Dg Color Dark gray 120V</div>
-                    <div class="product-description">Lo que tienes que saber de este producto
-                        Carga superior de 11 kg.
-                        Incluye 8 programas.
-                        Centrifuga a una velocidad de 850 rpm.
-                        Apta para lavar con agua a diversas temperaturas.
-                        Tambor de acero inoxidable y filtro atrapa suciedades.
-                        Comodidad y practicidad para tu hogar.
+    <div class="padre-card">
+        <div class="card-container">
+            <div id="product-list" class="product-list">
+                <div class="product ">
+                    <div class="prod-imgs">
+                        <div class="images-cont">
+                            <img src="images/electrodomesticos/nevera1.png" alt="Producto 2">
+                            <img src="images/electrodomesticos/nevera2.png" alt="Producto 2">
+                            <img src="images/electrodomesticos/nevera3.png" alt="Producto 2">
+                            <img src="images/electrodomesticos/nevera4.png" alt="Producto 2">
+                        </div>
+                        <div class="image-print">
+                            <img src="images/electrodomesticos/neverahome.png" alt="Producto 2">
+                        </div>
                     </div>
-                    <div class="product-price">$1.359.900</div>
-                    <button class="buy-button">Comprar</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="card-container">
-        <div id="product-list" class="product-list">
-            <div class="product">
-                <div class="images-cont">
-                    <img src="images/electrodomesticos/cafetera1.png" alt="Producto 3">
-                    <img src="images/electrodomesticos/cafetera2.png" alt="Producto 3">
-                    <img src="images/electrodomesticos/cafetera3.png" alt="Producto 3">
-                    <img src="images/electrodomesticos/cafetera4.png" alt="Producto 3">
-                </div>
-                <div class="image-print">
-                    <img src="images/electrodomesticos/cafetera.png" alt="Producto 3">
-                </div>
-                <div class="product-details">
-                    <div class="product-name">Cafetera Para Espresso Oster® 15 Bares, Molino Integrado Color Gris 110V
-                    </div>
-                    <div class="product-description">
-                        Lo que tienes que saber de este producto
-                        Cafetera expreso.
-                        Su capacidad es de 2.8 L.
-                        Tiene filtro permanente.
-                        Con emisión de vapor.
-                        Incluye temporizador.
-                        Con cepillo limpiador.
-                        Permite llenar 2 tazas.
-                        Potencia de 1600 W.
-                        Tiene control de temperatura.
-                        Incluye bandeja recolectora removible.
-                        Modo de uso muy sencillo e intuitivo.
-                    </div>
-                    <div class="product-price">$1.939.978</div>
-                    <button class="buy-button">Comprar</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="card-container">
-        <div id="product-list" class="product-list">
-            <div class="product">
-                <div class="images-cont">
-                    <img src="images/electrodomesticos/nevera1.png" alt="Producto 4">
-                    <img src="images/electrodomesticos/nevera2.png" alt="Producto 4">
-                    <img src="images/electrodomesticos/nevera3.png" alt="Producto 4">
-                    <img src="images/electrodomesticos/nevera4.png" alt="Producto 4">
-                </div>
-                <div class="image-print">
-                    <img src="images/electrodomesticos/neverahome.png" alt="Producto 4">
-                </div>
-                <div class="product-details">
-                    <div class="product-name">Nevecón Inverter No Frost Electrolux Ersa53k3hvb 529 Lts Color Negro</div>
-                    <div class="product-description">Lo que tienes que saber de este producto
-                        Modelo detallado: ERSA53K3HVB.
-                        Tipo de deshielo: no frost.
-                        Capacidad de 529 litros.
-                        Con freezer side by side.
-                        Con iluminación interior.
-                        Dimensiones: 91 cm de ancho, 178 cm de alto y 67 cm de profundidad.
-                        Cuenta con porta huevos.
 
+                    <div class="product-details">
+                        <div class="product-name">Nevecón Inverter No Frost Electrolux Ersa53k3hvb 529 Lts Color Negro</div>
+                        <div class="product-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque dolore odio dolores esse, dignissimos, vitae expedita, omnis ratione cupiditate eum assumenda debitis magnam enim autem repudiandae non laudantium cumque fugit!
+                        </div>
+                        <div class="product-price">$ 3.599.900</div>
+                        <button class="buy-button">Comprar</button>
                     </div>
-                    <div class="product-price">$3.599.900</div>
-                    <button class="buy-button">Comprar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="padre-card">
+        <div class="card-container">
+            <div id="product-list" class="product-list">
+                <div class="product ">
+                    <div class="prod-imgs">
+                        <div class="images-cont">
+                            <img src="images/electrodomesticos/Vista 1.png" alt="Producto 3">
+                            <img src="images/electrodomesticos/Vista1-1.png" alt="Producto 3">
+                            <img src="images/electrodomesticos/Vista1-2.png" alt="Producto 3">
+                            <img src="images/electrodomesticos/vista1-3.png" alt="Producto 3">
+                        </div>
+                        <div class="image-print">
+                            <img src="images/electrodomesticos/producto1-home.png" alt="Producto 3">
+                        </div>
+                    </div>
+
+                    <div class="product-details">
+                        <div class="product-name">Freidora de aire Oster CKSTAF40M de 4L color gris oscuro 120V</div>
+                        <div class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto libero officia ipsam accusantium. Iusto unde, tempora et deleniti, laboriosam ex voluptatum adipisci corporis sint id accusantium consequuntur officia quaerat iure.
+                        </div>
+                        <div class="product-price">$238.500</div>
+                        <button class="buy-button">Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="padre-card">
+        <div class="card-container">
+            <div id="product-list" class="product-list">
+                <div class="product ">
+                    <div class="prod-imgs">
+                        <div class="images-cont">
+                            <img src="images/electrodomesticos/producto1.2-1.png" alt="Producto 4">
+                            <img src="images/electrodomesticos/producto1..2-2.png" alt="Producto 4">
+                            <img src="images/electrodomesticos/producto1.2-4.png" alt="Producto 4">
+                            <img src="images/electrodomesticos/producto1.2-5.png" alt="Producto 4">
+                        </div>
+                        <div class="image-print">
+                            <img src="images/electrodomesticos/producto1,.2-3.png" alt="Producto 4">
+                        </div>
+                    </div>
+                    <div class="product-details">
+                        <div class="product-name">Lavadora Automática Challenger Ref. Cw 5711 Dg Color Dark gray 120V</div>
+                        <div class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, vel ab. Iusto facere omnis quo, quibusdam dolorum maiores dicta ducimus eum? Delectus nemo dicta labore alias ut corporis dolor aut!
+                        </div>
+                        <div class="product-price">$1.359.900</div>
+                        <button class="buy-button">Comprar</button>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </body>
+<script src="/main.js"></script>
 
 </html>

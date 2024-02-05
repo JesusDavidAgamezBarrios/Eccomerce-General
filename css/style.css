@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
+
     padding: 0;
     box-sizing: border-box;
     background-color: #f4f4f4;
@@ -11,12 +17,18 @@ body {
 
 
 header {
-  background-color:white;
+  width: 100%;
+  background-color:rgb(255, 255, 255);
   padding: 10px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
+/* .padre-card{
+  margin: 0 10% 0 10%;
+
+} */
 
 .logo {
   display: flex;
@@ -88,7 +100,12 @@ header {
   padding: 2px 6px;
   border-radius: 2px;
 }
+.prod-imgs{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
 
+}
 
 
   .card-container {
@@ -124,7 +141,7 @@ header {
   .images-cont img {
     width: 80px;
     height: 80px;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     border-radius: 4px;
     object-fit: cover;
     border: 1px solid #ddd;
@@ -136,9 +153,7 @@ header {
     transform: scale(1.1);
   }
 
-  .image-print {
-    flex: 1;
-  }
+ 
 
   .image-print img {
     max-width: 100%;
@@ -147,7 +162,8 @@ header {
   }
 
   .product-details {
-    flex: 1;
+    margin-left: 20px;
+    margin-top: 2rem;
   }
 
   .product-name {
@@ -161,6 +177,7 @@ header {
     font-size: 18px;
     margin-bottom: 12px;
     color: #27ae60;
+    margin-left: 20px;
   }
 
   .product-description {
@@ -183,3 +200,52 @@ header {
   .buy-button:hover {
     background-color: #2980b9;
   }
+
+  .menu1{
+    display: none;
+  
+  }
+  .menu-res{
+    display: none;
+  }
+
+
+  @media (max-width:430px){
+    .product{
+     flex-direction: column;
+    }
+
+    .prod-imgs {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+  }
+
+  .menu{
+    display: none !important;
+  }
+  
+  .menu1{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu-res{
+    display: block;
+    display: flex;
+   
+    
+  }
+  
+  .logo nav {
+    display: flex;
+    align-items: start;
+}
+.image-print img {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+
+
+  }
+}

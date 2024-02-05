@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
+    <!-- icons boostrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 
 <body>
@@ -13,10 +15,10 @@
         <div id="container">
             <div class="logo">
                 <nav>
-                    <label for="menu-btn" class="menu-icon">
-                        <span class="navicon"></span>
-                    </label>
-                    <ul class="menu">
+                    <div class="menu-res">
+                        <button id="menu"><i class="bi bi-justify"></i></button>
+                    </div>
+                    <ul class="menu ">
                         <li><a href="Electrodomesticos.html">Electrodomesticos</a></li>
                         <li><a href="vehiculos.html">Vehiculos</a></li>
                         <li><a href="Hogar y Muebles.html">Hogar</a></li>
@@ -28,128 +30,126 @@
                         <li><a href="BellezayCuidadoPersonal.html">Belleza y Cuidado Personal</a></li>
                         <li><a href="Juegosyjuguetes.html">Juegos y Juguetes</a></li>
                     </ul>
+                    <ul class="menu1 cerrar">
+                    </ul>
                 </nav>
                 <div class="cart-icon">
+                    <span class="cart-count">0</span>
                     <img src="https://img.icons8.com/material-outlined/24/000000/shopping-cart.png"
                         alt="Shopping Cart" />
-                    <span class="cart-count">0</span>
                 </div>
             </div>
         </div>
     </header>
 
-    <div class="card-container">
-        <div id="product-list" class="product-list">
-            <div class="product">
-                <div class="images-cont">
-                    <img src="images/vehiculos/vehiculo1-1.png" alt="Producto 1">
-                    <img src="images/vehiculos/vehiculo1-2.png" alt="Producto 1">
-                    <img src="images/vehiculos/vehiculo1-3.png" alt="Producto 1">
-                    <img src="images/vehiculos/vehiculo1-4.png" alt="Producto 1">
-                </div>
-                <div class="image-print">
-                    <img src="images/vehiculos/vehiculo1-1.png" alt="Producto 1">
-                </div>
-                <div class="product-details">
-                    <div class="product-name">Nissan March 1.6 Advance</div>
-                    <div class="product-description">
-                        Llévate un espectacular vehículo NISSAN MARCH 2019
-                        Aire acondicionado, Caja Mecánica, Cilindraje 1600 cm³, Combustible Gasolina, 2 Ejes, 5
-                        Pasajeros, Peso 971 kg, Potencia 106 hp, 5 Puertas, Transmisión 4x2, ABS, Airbags, Espejos
-                        eléctricos, 48.400 kilómetraje.
+    <div class="padre-card">
+        <div class="card-container">
+            <div id="product-list" class="product-list">
+                <div class="product ">
+                    <div class="prod-imgs">
+                        <div class="images-cont">
+                            <img src="images/vehiculos/vehiculo1.png" alt="Producto 1">
+                            <img src="images/vehiculos/vehiculo1-2.png" alt="Producto 1">
+                            <img src="images/vehiculos/vehiculo1-3.png" alt="Producto 1">
+                            <img src="images/vehiculos/vehiculo1-4.png" alt="Producto 1">
+                        </div>
+                        <div class="image-print">
+                            <img src="images/vehiculos/vehiculo1-1.png" alt="Producto 1">
+                        </div>
                     </div>
-                    <div class="product-price">$41.000.000</div>
-                    <button class="buy-button">Comprar</button>
+                    <div class="product-details">
+                        <div class="product-name">Nissan March 1.6 Advance</div>
+                        <div class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur atque voluptates porro commodi in consequatur voluptas reprehenderit odio iste eius sint ipsam ducimus dolor velit veritatis labore minima, voluptatibus repellendus!
+                        </div>
+                        <div class="product-price">$41.000.000</div>
+                        <button class="buy-button">Comprar</button>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="card-container">
-        <div id="product-list" class="product-list">
-            <div class="product">
-                <div class="images-cont">
-                    <img src="images/vehiculos/vehiculo2-1.png" alt="Producto 2">
-                    <img src="images/vehiculos/vehiculo2-2.png" alt="Producto 2">
-                    <img src="images/vehiculos/vehiculo2-3.png" alt="Producto 2">
-                    <img src="images/vehiculos/vehiculo2-4.png" alt="Producto 2">
-                </div>
-                <div class="image-print">
-                    <img src="images/vehiculos/vehiculo2home.png" alt="Producto 2">
-                </div>
-                <div class="product-details">
-                    <div class="product-name">Ford Mustang Shelby GT350 5.2</div>
-                    <div class="product-description">
-                        El Ford Mustang Shelby GT350 2020 es un auto potente y muy nervioso diseñado para sacudir las
-                        pistas de carreras sin dejar de sentirse como en casa en la calle. Su V-8 especial de 5.2
-                        litros, cuyo nombre en código es Voodoo, con razón, genera 526 caballos de fuerza y ​​acelera a
-                        unas vertiginosas 8250 rpm con un chillido inolvidable que suena más a Ferrari que a Ford. La
-                        suspensión del GT350 está lo suficientemente ajustada para manejar las curvas a velocidades de
-                        pista de carreras sin resultar estresante en la calle, y tiene frenos a la altura.
+    <div class="padre-card">
+        <div class="card-container">
+            <div id="product-list" class="product-list">
+                <div class="product ">
+                    <div class="prod-imgs">
+                        <div class="images-cont">
+                            <img src="images/vehiculos/kawasaki4-1.png" alt="Producto 2">
+                            <img src="images/vehiculos/kawasaki4-2.png" alt="Producto 2">
+                            <img src="images/vehiculos/kawasaki4-3.png" alt="Producto 2">
+                            <img src="images/vehiculos/Kawasaki_Ninja_H2R-4-4.png" alt="Producto 2">
+                        </div>
+                        <div class="image-print">
+                            <img src="images/vehiculos/Kawasaki_Ninja_H2R-4-4.png" alt="2">
+                        </div>
                     </div>
-                    <div class="product-price">$265.000.000</div>
-                    <button class="buy-button">Comprar</button>
+
+                    <div class="product-details">
+                        <div class="product-name">Kawasaki Ninja H2R</div>
+                        <div class="product-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, hic consectetur voluptas commodi, veniam nobis doloremque velit perspiciatis obcaecati, aspernatur nemo sequi quae itaque officiis repellendus autem! Expedita, aliquid iusto.
+                        </div>
+                        <div class="product-price">$278.500.000</div>
+                        <button class="buy-button">Comprar</button>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="card-container">
-        <div id="product-list" class="product-list">
-            <div class="product">
-                <div class="images-cont">
-                    <img src="images/vehiculos/vehiculo3-1.png" alt="Producto 3">
-                    <img src="images/vehiculos/vehiculo3-2.png" alt="Producto 3">
-                    <img src="images/vehiculos/vehiculo3-3.png" alt="Producto 3">
-                    <img src="images/vehiculos/vehiculo3-4.png" alt="Producto 3">
-                </div>
-                <div class="image-print">
-                    <img src="images/vehiculos/vehiculo3home.png" alt="Producto 3">
-                </div>
-                <div class="product-details">
-                    <div class="product-name">Ford Mustang 5.0</div>
-                    <div class="product-description">
-                        El Ford Mustang Shelby GT350 2020 es un auto potente y muy nervioso diseñado para sacudir las
-                        pistas de carreras sin dejar de sentirse como en casa en la calle. Su V-8 especial de 5.2
-                        litros, cuyo nombre en código es Voodoo, con razón, genera 526 caballos de fuerza y ​​acelera a
-                        unas vertiginosas 8250 rpm con un chillido inolvidable que suena más a Ferrari que a Ford. La
-                        suspensión del GT350 está lo suficientemente ajustada para manejar las curvas a velocidades de
-                        pista de carreras sin resultar estresante en la calle, y tiene frenos a la altura.
+    <div class="padre-card">
+        <div class="card-container">
+            <div id="product-list" class="product-list">
+                <div class="product ">
+                    <div class="prod-imgs">
+                        <div class="images-cont">
+                            <img src="images/vehiculos/vehiculo2-1.png" alt="Producto 3">
+                            <img src="images/vehiculos/vehiculo2-2.png" alt="Producto 3">
+                            <img src="images/vehiculos/vehiculo2-3.png" alt="Producto 3">
+                            <img src="images/vehiculos/vehiculo2-4.png" alt="Producto 3">
+                        </div>
+                        <div class="image-print">
+                            <img src="images/vehiculos/vehiculo2home.png" alt="Producto 3">
+                        </div>
                     </div>
-                    <div class="product-price">$178.000.000</div>
-                    <button class="buy-button">Comprar</button>
+
+                    <div class="product-details">
+                        <div class="product-name">Ford Mustang Shelby Gt350 5.2</div>
+                        <div class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, reiciendis quod doloremque fugit nesciunt earum, vitae quisquam neque magni nemo quos esse, beatae amet voluptatem qui ad nulla maiores non!
+                        </div>
+                        <div class="product-price">$238.500.000</div>
+                        <button class="buy-button">Comprar</button>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="card-container">
-        <div id="product-list" class="product-list">
-            <div class="product">
-                <div class="images-cont">
-                    <img src="images/vehiculos/kawasaki4-1.png" alt="Producto 4">
-                    <img src="images/vehiculos/kawasaki4-2.png" alt="Producto 4">
-                    <img src="images/vehiculos/kawasaki4-3.png" alt="Producto 4">
-                    <img src="images/vehiculos/Kawasaki_Ninja_H2R-4-4.png" alt="Producto 4">
-                </div>
-                <div class="image-print">
-                    <img src="images/vehiculos/kawasaki-ninja-h-2r.png" alt="Producto 4">
-                </div>
-                <div class="product-details">
-                    <div class="product-name">Kawasaki Ninja H2R
+    <div class="padre-card">
+        <div class="card-container">
+            <div id="product-list" class="product-list">
+                <div class="product ">
+                    <div class="prod-imgs">
+                        <div class="images-cont">
+                            <img src="images/vehiculos/vehiculo3-1.png" alt="Producto 4">
+                            <img src="images/vehiculos/vehiculo3-2.png" alt="Producto 4">
+                            <img src="images/vehiculos/vehiculo3-3.png" alt="Producto 4">
+                            <img src="images/vehiculos/vehiculo3-4.png" alt="Producto 4">
+                        </div>
+                        <div class="image-print">
+                            <img src="images/vehiculos/vehiculo3home.png" alt="Producto 4">
+                        </div>
                     </div>
-                    <div class="product-description">
-                        La Kawasaki Ninja H2R tiene un motor de 4 cilindros en línea y mil centímetros cúbicos con 326
-                        caballos de fuerza, 141.7 newton metros a 11.000 revoluciones por minutos. Está diseñada
-                        únicamente para circuito y es alimentada por un compresor que gira casi 10 veces más rápido que
-                        el cigüeñal.Tipo de motor: Sobrealimentado refrigerado por líquido de 4 cilindros en línea
-                        Cilindrada: 998 cm3 , Tipo sobrealimentaión: centrífuga
-                        Potencia máxima: Objetivo 300 CV
-                        Tipo de Chasis: Multitubular, acero de alta resistencia
-                        Neumáticos, delantero: 120 / 600R17 (racing slicks)
-                        Neumáticos, trasero: 190 / 650R17 (racing slicks)
+                    <div class="product-details">
+                        <div class="product-name">Ford Mustang Gt 5.0
+                        </div>
+                        <div class="product-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias labore neque ducimus autem atque nostrum, perferendis sequi illo quidem reprehenderit ea vitae quae in. Modi quia voluptatem reprehenderit laborum blanditiis!
+                        </div>
+                        <div class="product-price">$248.500</div>
+                        <button class="buy-button">Comprar</button>
                     </div>
-                    <div class="product-price">$230.000. 000</div>
-                    <button class="buy-button">Comprar</button>
                 </div>
             </div>
         </div>
     </div>
 </body>
+<script src="/main.js"></script>
+
+</html>

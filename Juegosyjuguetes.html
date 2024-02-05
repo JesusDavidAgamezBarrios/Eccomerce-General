@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
+    <!-- icons boostrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 
 <body>
@@ -13,10 +15,10 @@
         <div id="container">
             <div class="logo">
                 <nav>
-                    <label for="menu-btn" class="menu-icon">
-                        <span class="navicon"></span>
-                    </label>
-                    <ul class="menu">
+                    <div class="menu-res">
+                        <button id="menu"><i class="bi bi-justify"></i></button>
+                    </div>
+                    <ul class="menu ">
                         <li><a href="Electrodomesticos.html">Electrodomesticos</a></li>
                         <li><a href="vehiculos.html">Vehiculos</a></li>
                         <li><a href="Hogar y Muebles.html">Hogar</a></li>
@@ -28,44 +30,161 @@
                         <li><a href="BellezayCuidadoPersonal.html">Belleza y Cuidado Personal</a></li>
                         <li><a href="Juegosyjuguetes.html">Juegos y Juguetes</a></li>
                     </ul>
+                    <ul class="menu1 cerrar">
+                    </ul>
                 </nav>
                 <div class="cart-icon">
+                    <span class="cart-count">0</span>
                     <img src="https://img.icons8.com/material-outlined/24/000000/shopping-cart.png"
                         alt="Shopping Cart" />
-                    <span class="cart-count">0</span>
                 </div>
             </div>
         </div>
     </header>
 
-    <div class="card-container">
-        <div id="product-list" class="product-list">
-            <div class="product">
-                <div class="images-cont">
-                    <img src="images/Vista 1.png" alt="Producto 1">
-                    <img src="images/Vista1-1.png" alt="Producto 1">
-                    <img src="images/Vista1-2.png" alt="Producto 1">
-                    <img src="images/vista1-3.png" alt="Producto 1">
-                </div>
-                <div class="image-print">
-                    <img src="images/producto1-home.png" alt="Producto 1">
-                </div>
-                <div class="product-details">
-                    <div class="product-name">Freidora de aire Oster CKSTAF40M de 4L color gris oscuro 120V</div>
-                    <div class="product-description">Lo que tienes que saber de este producto
-                        Control perilla.
-                        Contiene 1 canasto removible.
-                        Mango resistente a altas temperaturas.
-                        Con timer programable.
-                        Superficie antiadherente.
-                        Función incluida: freír.
-                        Dimensiones: 26cm de ancho, 31.3cm de alto y 33.7cm de largo.
-                        Su peso es de 3.5kg.
-                        Ideal para la preparación de tus comidas.
+    <div class="padre-card">
+        <div class="card-container">
+            <div id="product-list" class="product-list">
+                <div class="product ">
+                    <div class="prod-imgs">
+                        <div class="images-cont">
+                            <img src="images/electrodomesticos/Vista 1.png" alt="Producto 1">
+                            <img src="images/electrodomesticos/Vista1-1.png" alt="Producto 1">
+                            <img src="images/electrodomesticos/Vista1-2.png" alt="Producto 1">
+                            <img src="images/electrodomesticos/vista1-3.png" alt="Producto 1">
+                        </div>
+                        <div class="image-print">
+                            <img src="images/electrodomesticos/producto1-home.png" alt="Producto 1">
+                        </div>
                     </div>
-                    <div class="product-price">$20.00</div>
-                    <button class="buy-button">Comprar</button>
+                    <div class="product-details">
+                        <div class="product-name">Freidora de aire Oster CKSTAF40M de 4L color gris oscuro 120V</div>
+                        <div class="product-description">Lo que tienes que saber de este producto
+                            Control perilla.
+                            Contiene 1 canasto removible.
+                            Mango resistente a altas temperaturas.
+                            Con timer programable.
+                            Superficie antiadherente.
+                            Función incluida: freír.
+                            Dimensiones: 26cm de ancho, 31.3cm de alto y 33.7cm de largo.
+                            Su peso es de 3.5kg.
+                            Ideal para la preparación de tus comidas.
+                        </div>
+                        <div class="product-price">$238.500</div>
+                        <button class="buy-button">Comprar</button>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <div class="padre-card">
+        <div class="card-container">
+            <div id="product-list" class="product-list">
+                <div class="product ">
+                    <div class="prod-imgs">
+                        <div class="images-cont">
+                            <img src="images/electrodomesticos/Vista 1.png" alt="Producto 1">
+                            <img src="images/electrodomesticos/Vista1-1.png" alt="Producto 1">
+                            <img src="images/electrodomesticos/Vista1-2.png" alt="Producto 1">
+                            <img src="images/electrodomesticos/vista1-3.png" alt="Producto 1">
+                        </div>
+                        <div class="image-print">
+                            <img src="images/electrodomesticos/producto1-home.png" alt="Producto 1">
+                        </div>
+                    </div>
+
+                    <div class="product-details">
+                        <div class="product-name">Freidora de aire Oster CKSTAF40M de 4L color gris oscuro 120V</div>
+                        <div class="product-description">Lo que tienes que saber de este producto
+                            Control perilla.
+                            Contiene 1 canasto removible.
+                            Mango resistente a altas temperaturas.
+                            Con timer programable.
+                            Superficie antiadherente.
+                            Función incluida: freír.
+                            Dimensiones: 26cm de ancho, 31.3cm de alto y 33.7cm de largo.
+                            Su peso es de 3.5kg.
+                            Ideal para la preparación de tus comidas.
+                        </div>
+                        <div class="product-price">$238.500</div>
+                        <button class="buy-button">Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="padre-card">
+        <div class="card-container">
+            <div id="product-list" class="product-list">
+                <div class="product ">
+                    <div class="prod-imgs">
+                        <div class="images-cont">
+                            <img src="images/electrodomesticos/Vista 1.png" alt="Producto 1">
+                            <img src="images/electrodomesticos/Vista1-1.png" alt="Producto 1">
+                            <img src="images/electrodomesticos/Vista1-2.png" alt="Producto 1">
+                            <img src="images/electrodomesticos/vista1-3.png" alt="Producto 1">
+                        </div>
+                        <div class="image-print">
+                            <img src="images/electrodomesticos/producto1-home.png" alt="Producto 1">
+                        </div>
+                    </div>
+
+                    <div class="product-details">
+                        <div class="product-name">Freidora de aire Oster CKSTAF40M de 4L color gris oscuro 120V</div>
+                        <div class="product-description">Lo que tienes que saber de este producto
+                            Control perilla.
+                            Contiene 1 canasto removible.
+                            Mango resistente a altas temperaturas.
+                            Con timer programable.
+                            Superficie antiadherente.
+                            Función incluida: freír.
+                            Dimensiones: 26cm de ancho, 31.3cm de alto y 33.7cm de largo.
+                            Su peso es de 3.5kg.
+                            Ideal para la preparación de tus comidas.
+                        </div>
+                        <div class="product-price">$238.500</div>
+                        <button class="buy-button">Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="padre-card">
+        <div class="card-container">
+            <div id="product-list" class="product-list">
+                <div class="product ">
+                    <div class="prod-imgs">
+                        <div class="images-cont">
+                            <img src="images/electrodomesticos/Vista 1.png" alt="Producto 1">
+                            <img src="images/electrodomesticos/Vista1-1.png" alt="Producto 1">
+                            <img src="images/electrodomesticos/Vista1-2.png" alt="Producto 1">
+                            <img src="images/electrodomesticos/vista1-3.png" alt="Producto 1">
+                        </div>
+                        <div class="image-print">
+                            <img src="images/electrodomesticos/producto1-home.png" alt="Producto 1">
+                        </div>
+                    </div>
+                    <div class="product-details">
+                        <div class="product-name">Freidora de aire Oster CKSTAF40M de 4L color gris oscuro 120V</div>
+                        <div class="product-description">Lo que tienes que saber de este producto
+                            Control perilla.
+                            Contiene 1 canasto removible.
+                            Mango resistente a altas temperaturas.
+                            Con timer programable.
+                            Superficie antiadherente.
+                            Función incluida: freír.
+                            Dimensiones: 26cm de ancho, 31.3cm de alto y 33.7cm de largo.
+                            Su peso es de 3.5kg.
+                            Ideal para la preparación de tus comidas.
+                        </div>
+                        <div class="product-price">$238.500</div>
+                        <button class="buy-button">Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="/main.js"></script>
+
+</html>
