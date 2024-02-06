@@ -18,17 +18,19 @@ body {
 
 header {
   width: 100%;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(71, 138, 238);
   padding: 10px 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  height: 50px;
+
 }
 
-/* .padre-card{
-  margin: 0 10% 0 10%;
-
-} */
+.menu li a {
+  color: #f4f4f4;
+  !important
+}
 
 .logo {
   display: flex;
@@ -89,6 +91,11 @@ header {
   height: 24px;
   cursor: pointer;
   color: #27ae60;
+}
+
+nav {
+  overflow-x: scroll;
+  width: 100vw;
 }
 
 .cart-count {
