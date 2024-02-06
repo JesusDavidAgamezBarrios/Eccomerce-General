@@ -207,6 +207,7 @@ header {
   }
   .menu-res{
     display: none;
+    margin-left: 20px;
   }
 
 
@@ -223,11 +224,14 @@ header {
 
   .menu{
     display: none !important;
+    justify-content: center;
+    margin-left: 20px;
   }
   
   .menu1{
     display: flex;
     flex-direction: column;
+    justify-content: center;
   }
 
   .menu-res{
